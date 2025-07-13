@@ -9,7 +9,7 @@ An intelligent, machine learning-based system designed to detect, classify, and 
 The increasing complexity of cyber threats like ransomware, phishing, and advanced persistent attacks requires smart and scalable detection mechanisms. This project presents a threat detection model powered by ensemble learning (Random Forest), optimized through feature engineering, class balancing (SMOTE), and hyperparameter tuning.
 
 Key contributions include:
-- Multimodal data integration (network flows + textual payloads)
+- Multimodal data integration 
 - Robust preprocessing and intelligent feature extraction
 - Systematic evaluation using precision, recall, F1-score, and ROC-AUC
 - High model interpretability and low operational noise (false positives)
@@ -29,7 +29,7 @@ Key contributions include:
 
 ## 🗂 Dataset Sources
 
-- **Cyber Threat Dataset** – [Statweb Stanford](http://statweb.stanford.edu/~sabatti/data.html)
+- **Cyber Threat Dataset** 
 - **Network Traffic Dataset** – Open-source cybersecurity data
 - Datasets include benign and malicious flows (e.g., DDoS, phishing, email threats)
 
@@ -67,7 +67,7 @@ Key contributions include:
 | F1-Score         | 95.17%  |
 | ROC-AUC Score    | 0.918   |
 
-
+---
 
 ## 📌 Comparative Analysis
 
@@ -89,23 +89,50 @@ Key contributions include:
 
 ---
 
-## 👩‍💻 Authors
+## 🖼️ Insights & Interface Screenshots
 
-- **Jayati Aggarwal** – aggarwaljayati58@gmail.com  
-- **Sita Rani** – sitasaini80@gmail.com | cse_sita@gndec.ac.in  
-Department of Computer Science and Engineering, GNDEC, Ludhiana
-
----
-
-## 📄 Citation
-
-If you use this work, please cite:
-
-> Jayati Aggarwal, Sita Rani, *An Intelligent Security Model To Detect Cyber Threats*, Guru Nanak Dev Engineering College, Ludhiana, India, 2025.
+### 🧠 Model Dashboard  
+Overview of the app interface for threat detection and risk assessment.  
+![Cyber Threat Model UI](cyberthreatmodel.png)
 
 ---
 
-## 📃 License
+### ⚙️ Settings Panel  
+Customizable model and feature path setup using Streamlit settings.  
+![Settings Panel](Setting_.png)
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+---
+
+### 📊 Threat Score Visualization  
+Interactive pie chart and bar graph showing threat distribution.  
+![Threat Visualization](visualization.png)
+
+---
+
+### 📈 Prediction Results and Risk Table  
+Detailed table showing risk score, mitigation strategy, and threat level.  
+![Prediction Results](results.png)
+
+---
+
+## 🚀 Live Demo
+
+You can try the deployed model here:  
+🔗 [Hugging Face Space: Cyber Threat Detection Model](https://huggingface.co/spaces/Jayati124/cyber_threat_detection_model)
+
+---
+
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👩‍💻 Author
+
+**Jayati Aggarwal**  
+Computer Science & Engineering  
+📧 aggarwaljayati58@gmail.com  
+[LinkedIn](#) | [GitHub](#)
 
